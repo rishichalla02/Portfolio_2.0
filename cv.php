@@ -4,13 +4,13 @@ $file = $_GET['file'] .".pdf";
 
 header("content-disposition: attachment; filename=" .urlencode($file));
 
-$fo = fopen($file, "r");
+$fl = fopen($file, "r");
 
-while(!feof($fo)){
-    echo fread($fo, 8192);
+while(!feof($fl)){
+    echo fread($fl, 8192);
     flush();
 }
 
-fclose($fo);
+fclose($fl);
 
 ?>
