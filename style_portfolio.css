@@ -438,7 +438,7 @@ body {
 }
 
 .container {
-    padding: 90px;
+    margin-left: 185px;
 }
 
 .services_list {
@@ -520,7 +520,8 @@ section {
     width: 600px;
     height: 500px;
     padding: 75px 90px;
-    margin-left: 120px;
+    margin-left: 450px;
+    margin-top: -87px;
     display: flex;
     flex-wrap: wrap;
 }
